@@ -6,17 +6,22 @@
 @tailwind utilities;
 
 .tracking-widest1 {
-    letter-spacing: 3px;
-  }
-
-.h-screen-half{
-    height: 80vh;
+  letter-spacing: 3px;
 }
 
-.btn2 span:first-child{
+.h-screen-half {
+  height: 80vh;
+}
+
+.btn2 span:first-child {
   transform: translateX(-101%);
   transition: transform .3s ease-in
 }
-.btn2:hover span{
+
+.btn2:hover span {
   transform: translateX(0)
+}
+
+.scale-hover:hover {
+  transform: scale(1.05);
 }
