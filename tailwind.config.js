@@ -8,7 +8,8 @@ module.exports = {
         Yantramanav: ["Yantramanav"],
       },
       colors: {
-        "orange": "#fd7e14",
+        orange: "#fd7e14",
+        pink: "#F6F0EB",
       },
     },
   },
